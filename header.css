@@ -3,7 +3,8 @@
 #header-navbar {
   font-family: 'Baloo Chettan 2', cursive;
   background-color: #90C893;
-  width: 490px;
+  width: 100vw;
+	font-size: 24px;
 }
 
 .navbar {
