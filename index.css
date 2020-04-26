@@ -2,7 +2,7 @@
 
 #content-wrapper {
   font-family: 'Baloo Chettan 2', cursive;
-  background-color: #A5E1A8;
+  background-color: #FEFEFA;
   width: 100vw;
   height: 100vh;
 }
@@ -14,7 +14,7 @@
   border-radius: 20px;
   moz-border-radius: 20px;
   -webkit-border-radius: 20px;
-  background-color: #7BAF7E;
+  background-color: #355E3B;
   padding: 30px;
   display: block;
   margin: 0 auto !important;
