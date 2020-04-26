@@ -15,30 +15,20 @@
       }</script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <script src="src/html-include.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        document.querySelector('pre').innerHTML = document.body.innerHTML
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;")
-          .replace(/"/g, "&quot;")
-          .replace(/'/g, "&#039;");
-      });
-    </script>
   </head>
   <body>
-    <html-include src="header.html"></html-include>
+    <div id="content-wrapper">
     <div class="container">
+    <html-include src="header.html"></html-include>
       <h1>&lt;html-include&gt;</h1>
       <p>This is how the DOM looks like at the <strong>DOMContentLoaded</strong> event (before inserting the content of &lt;pre&gt;).<br>Compare it against the raw HTML source.</p>
-      <pre></pre>
-    </div>
-    <html-include src="footer.html"></html-include>
-    <div id="content-wrapper">
+      
     <div id="page-content">
       <h1>Handouts!</h1>
       So, did you come looking for my handouts? You're at the right place. Most of these handouts are intended for the AIME, so for those of you looking to make the USA(J)MO in the USA or your national olympiad in your country, here are some great resources to get started with:
     </div>
+    </div>
+    <html-include src="footer.html"></html-include>
   </div>
   </body>
 </html>
