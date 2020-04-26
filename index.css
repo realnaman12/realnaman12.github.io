@@ -3,8 +3,8 @@
 #content-wrapper {
   font-family: 'Baloo Chettan 2', cursive;
   background-color: #A5E1A8;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
 
 #page-content {
