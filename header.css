@@ -4,7 +4,7 @@
   font-family: 'Baloo Chettan 2', cursive;
   background-color: #90C893;
   width: 100vw;
-	font-size: min(24px,10vw);
+	font-size: min(24px,1vw);
 }
 
 .navbar {
