@@ -7,6 +7,10 @@
   height: auto;
 }
 
+body {
+  background-color: #A5E1A8 !important;
+}
+
 #page-content {
   width: 50%;
   min-width: 500px;
