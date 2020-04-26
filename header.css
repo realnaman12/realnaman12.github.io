@@ -26,20 +26,12 @@
 
 .ghost-center {
   position: relative;
-}
-.ghost-center::before {
-  content: " ";
-  display: inline-block;
-  height: 100%;
-  width: 1%;
-  vertical-align: middle;
-}
-.ghost-center::after {
-  content: " ";
-  display: inline-block;
-  height: 100%;
-  width: 1%;
-  vertical-align: middle;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .ghost-center #catchphrase {
   display: inline-block;
