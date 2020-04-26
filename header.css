@@ -1,3 +1,6 @@
+@import url(//fonts.googleapis.com/css?family=Baloo+Chettan+2);
+
 #header-navbar {
-  width: 50%;
+  font-family: 'Baloo Chettan 2', cursive;
+  background-color: #A5E1A8;
 }
