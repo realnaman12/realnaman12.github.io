@@ -37,8 +37,5 @@
 .ghost-center #catchphrase {
   display: inline-block;
   vertical-align: middle;
-  width: 190px;
   margin: 0;
-  padding: 20px;
-  background: black;
 }
