@@ -24,17 +24,4 @@
     padding: -5 -5px
 }
 
-.ghost-center {
-  position: relative;
 
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.ghost-center #catchphrase {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-}
