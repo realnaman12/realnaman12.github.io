@@ -1,5 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Baloo+Chettan+2);
 
+@import url(https://fonts.googleapis.com/css?family=Caveat);
+
 #content-wrapper {
   font-family: 'Baloo Chettan 2', cursive;
   background-color: #FEFEFA;
@@ -23,4 +25,8 @@
 
 #page-content a {
   color: pink;
+}
+
+#page-content li {
+  font-family: 'Caveat';
 }
