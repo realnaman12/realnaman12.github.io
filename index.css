@@ -32,13 +32,13 @@
   font-family: 'Overpass';
 }
 
-.2ltip {
+.twoltip {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
 }
 
-.2ltip .tooltiptext {
+.twoltip .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -52,7 +52,7 @@
   left: 110%;
 }
 
-.2ltip .tooltiptext::after {
+.twoltip .tooltiptext::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -62,6 +62,6 @@
   border-style: solid;
   border-color: transparent black transparent transparent;
 }
-.2ltip:hover .tooltiptext {
+.twoltip:hover .tooltiptext {
   visibility: visible;
 }
