@@ -40,7 +40,7 @@
 
 .twoltip .tooltiptext {
   visibility: hidden;
-  width: max(40vw,320px);
+  width: 320px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -50,7 +50,7 @@
   z-index: 1;
   top: 150%;
   left: 50%;
-  margin-left: -max(20vw,160px);
+  margin-left: -160px;
 }
 
 .twoltip .tooltiptext::after {
