@@ -53,14 +53,14 @@
 }
 
 .twoltip .tooltiptext::after {
-  content: "";
+  content: " ";
   position: absolute;
-  top: 50%;
-  right: 100%;
-  margin-top: -5px;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent black transparent transparent;
+  border-color: transparent transparent black transparent;
 }
 .twoltip:hover .tooltiptext {
   visibility: visible;
