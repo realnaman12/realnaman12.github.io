@@ -20,3 +20,7 @@
   margin: 0 auto !important;
   color: white;
 }
+
+#page-content a {
+  color: pink;
+}
