@@ -32,7 +32,7 @@
   font-family: 'Overpass';
 }
 
-.tooltip .tooltiptext {
+.tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -46,7 +46,7 @@
   left: 110%;
 }
 
-.tooltip .tooltiptext::after {
+.tooltiptext::after {
   content: "";
   position: absolute;
   top: 50%;
