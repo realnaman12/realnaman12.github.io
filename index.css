@@ -32,11 +32,6 @@
   font-family: 'Overpass';
 }
 
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
